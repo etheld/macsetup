@@ -10,4 +10,4 @@ dependency:
 	ansible-galaxy install -r requirements.yml
 
 install:
-	ansible-playbook --inventory-file=$(INVENTORY) mac.yml -v
+	ansible-playbook --inventory-file=$(INVENTORY) mac.yml -v -K
