@@ -54,7 +54,7 @@
 #      homebrew: update_homebrew=yes name={{item}}
       homebrew: name={{item}}
       with_items:
-	      - caskroom/versions/java8
+        - caskroom/versions/java8
         - ack
         - gradle-completion
         - sonar-scanner
